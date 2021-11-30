@@ -38,6 +38,7 @@ const crearUsuario = async ( req, res = response ) => {
         return res.status(201).json({
             ok: true,
             uid: dbUser.id,
+            email,
             name,
             token
         })
@@ -60,8 +61,8 @@ const loginUsuario = async ( req, res = response ) => {
     try {
 
         //TODO aca podemos grabar los log de acceso del usuario, etc
-        const dbUser = await Usuario.findOne( {email} );
-
+        const dbUser = await Usuario.findOne( { email } );
+        
         // CONFIRMAMOS SI EL USUARIO HACE MATCH
         if( !dbUser ) {
             
@@ -96,6 +97,7 @@ const loginUsuario = async ( req, res = response ) => {
             ok: true,
             uid: dbUser.id,
             name: dbUser.name,
+            email,
             token
         })
         
@@ -107,21 +109,31 @@ const loginUsuario = async ( req, res = response ) => {
         });
     }
 
-
 }
 
 const revalidarToken = async ( req, res = response ) => {
 
     // OBTENER DATOS DE USUARIO ACTUAL
-    const { name, uid } = req;
+    const { uid } = req;
+
+    // Leer la base de datos
+    const dbUser = await Usuario.findById(uid);
+
+    if ( !dbUser ) {
+        return res.status(400).json({
+            ok: false,
+            msg: 'Problemas con la validación del uid, éste no existe en la base de datos.'
+        })
+    }
 
     // GENERAR EL JWT
-    const token = await generarJWT( uid, name );
-
+    const token = await generarJWT( uid, dbUser.name );
+    
     // RESPONDER AL CLIENTE CON STATUS 200 Y EL OBJETO COMPLETO
     return res.json({
         ok: true,
-        name,
+        name: dbUser.name,
+        email: dbUser.email,
         uid,
         token
     })

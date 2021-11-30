@@ -16,7 +16,7 @@ const validarJWT = ( req, res = response, next ) => {
     }
 
     try {
-
+        console.log(token)
         // VERIFICAMOS EL TOKEN
         const { uid, name } = jwt.verify( token, process.env.SECRET_JWT_SEED );
 
@@ -27,6 +27,7 @@ const validarJWT = ( req, res = response, next ) => {
         console.log(uid, name);
         
     } catch (error) {
+        console.log(error)
         return res.status(401).json({
             ok: false,
             msg: 'token no válido'
