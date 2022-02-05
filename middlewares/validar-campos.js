@@ -6,7 +6,7 @@ const validarCampos = ( req, res = response, next ) => {
 
     const errors = validationResult( req );
     if ( !errors.isEmpty() ){
-        return res.status( 500 ).json({
+        return res.status( 403 ).json({
             ok: false,
             errors: errors.mapped()
         })

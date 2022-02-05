@@ -69,8 +69,8 @@ const loginUsuario = async ( req, res = response ) => {
             return res.status(400).json({
                 ok: false,
                 //TODO: Habilitar el segundo comentario y deshabilitar el primero
-                msg: 'El correo no existe.',
-                //msg: 'Credenciales no son válidas.'
+                //msg: 'El correo no existe.',
+                msg: 'Credenciales no son válidas.'
             })
             
         }
@@ -84,8 +84,8 @@ const loginUsuario = async ( req, res = response ) => {
             return res.status(400).json({
                 ok: false,
                 //TODO: Habilitar el segundo comentarios y deshabilitar el primero
-                msg: 'El password no es correcto',
-                //msg: 'Credenciales no son válidas'
+                //msg: 'El password no es correcto',
+                msg: 'Credenciales no son válidas'
             })
         }
 

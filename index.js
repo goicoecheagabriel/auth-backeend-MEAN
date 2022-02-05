@@ -1,6 +1,6 @@
-const express   = require('express');
-const cors      = require('cors');
-const { dbConnection } = require('./db/config');
+const express           = require('express');
+const cors              = require('cors');
+const { dbConnection }  = require('./db/config');
 require('dotenv').config();
 
 
@@ -20,7 +20,9 @@ app.use( cors() );
 app.use( express.json() )
 
 // Rutas
-app.use( '/api/auth', require('./routes/auth') );
+app.use( '/api/auth', require('./routes/auth') ); // Usuarios
+app.use( '/api/suscriptor', require('./routes/suscriptor') ); // Suscriptores
+app.use( '/api/contacto', require('./routes/contacto') ); // Contactos
 
 
 app.listen( process.env.PORT, () => {

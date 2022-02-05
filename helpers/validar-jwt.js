@@ -3,7 +3,7 @@ const jwt = require('jsonwebtoken');
 
 
 const validarJWT = ( req, res = response, next ) => {
-
+    
     //LEER EL X-TOKEN DEL HEADER
     const token = req.header('x-token');
     
@@ -33,7 +33,7 @@ const validarJWT = ( req, res = response, next ) => {
             msg: 'token no válido'
         })
     }
-
+    
     // TODO OK!
     next();
 
