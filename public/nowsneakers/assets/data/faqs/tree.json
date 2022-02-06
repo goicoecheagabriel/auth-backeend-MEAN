@@ -1,0 +1,116 @@
+[
+  {
+      "key": "0",
+      "label": "Sobre nosotros",
+      "children": [
+          {
+            "key": "0-0",
+            "label": "¿Cuánto tiempo lleva la empresa?",
+            "data":"/faqs",
+            "txt": {
+              "es": "Tenemos varios emprendimientos de comercio electrónico, siempre estamos innovando y nuestro equipo tiene mucha experiencia en este nuevo mundo del comercio. No dudes en confiar en nuestras manos para seleccionar tus nuevas zapatillas."
+            },
+            "type": "url"
+          },
+          {
+            "key": "0-1",
+            "label": "¿Dónde se encuentran?",
+            "data":"/faqs",
+            "txt": {
+              "es": "Nuestra empresa está registrada en España, pero solo a título administrativo. Nuestro mercado es el mundo y no creemos en las fronteras como límite al comercio."
+            },
+            "type": "url"
+          }
+      ]
+  },
+  {
+    "key": "1",
+    "label": "Sobre los precios",
+    "children": [
+        {
+          "key": "1-0",
+          "label": "¿Por qué los precios tan bajos?",
+          "data":"/faqs",
+          "txt": {
+            "es": "<p>Creemos y trabajamos para en generar muchas ventas. Eso nos permite reducir nuestros márgenes de beneficio. Otras empresas optan por triplicar los precios de coste. Preferimos crear comunidad. Gracias a que disponemos de precios directos de fábrica podemos reducirlos significativamente en comparación con la realidad de otros vendedores</p>"
+          },
+          "type": "url"
+        }
+    ]
+  },
+  {
+    "key": "2",
+    "label": "Acerca de los envíos",
+    "children": [
+        {
+          "key": "2-0",
+          "label": "¿Cómo es el proceso de envío?",
+          "data":"/faqs",
+          "txt": {
+            "es": "<p>1- Se realiza el pago. <br>2- Se procesa el pago. <br>3- Se procesa y envía el pedido. (24 / 48hs) En casos muy concretos este tiempo puede ser un poco más largo, llegando hasta las 72hs. <br>4- El pedido llega a tu domicilio. (El tiempo de entrega depende del envío seleccionado). Algunos países (fuera de los EE. UU., Canadá, la Comunidad Europea) pueden tener retrasos específicos en relación con su sistema de correo nacional.</p>"
+          },
+          "type": "url"
+        },
+        {
+          "key": "2-1",
+          "label": "¿Qué tipos de envíos realizan?",
+          "data":"/faqs",
+          "txt": {
+            "es": "<p>Trabajamos con dos tipos de envíos:<br> 1- ENVÍO EXPRESS - Este envío tiene un costo adicional y demora entre 15 a 20 días hábiles desde que se procesó el pedido.<br>2- ENVÍO GRATIS * - Este envío solo está disponible en compras superiores a €99,99<br>* no disponible para algunos países - para más información consultar a través del formulario de contacto</p>"
+          },
+          "type": "url"
+        },
+        {
+          "key": "2-2",
+          "label": "¿Envían contra reembolso?",
+          "data":"/faqs",
+          "txt": {
+            "es": "<p>Al tratarse de envíos internacionales, es muy difícil contar con este tipo de servicio. Por este motivo hemos decidido no disponer de esta modalidad</p>"
+          },
+          "type": "url"
+        },
+        {
+          "key": "2-3",
+          "label": "¿Qué pasa si no estoy en casa el día de la entrega?",
+          "data":"/faqs",
+          "txt": {
+            "es": "<p>En este caso, el repartidor dejará un aviso * con el que deberá dirigirse a la oficina de correos junto con su identificación personal. En cualquier caso, un familiar que se encuentre en ese momento también podría vivirlo. <br> Tenga en cuenta que no pueden pasar más de 15 días desde la visita del repartidor, ya que si eso sucede la oficina de correos devolverá el paquete al remitente. En caso de que esto suceda tendrás que volver a pagar el envío para que podamos enviárselo de nuevo una vez que lo recibamos. <br> * Puede haber diferencias en la gestión según el país de destino.</p>"
+          },
+          "type": "url"
+        },
+        {
+          "key": "2-4",
+          "label": "¿Qué puedo hacer si no recibo mi pedido?",
+          "data":"/faqs",
+          "txt": {
+            "es": "<div><p>Partiendo de la base que realizamos envíos internacionales, aunque no es habitual, estos eventualmente podrían perderse o tener algún problema que impida su ubicación. Por este motivo disponemos de un seguro de reembolso.</p><p>Para solicitar el reembolso deben haber transcurrido 60 días hábiles desde la fecha de envío y debe solicitarlo por correo electrónico especificando la referencia del pedido a nuestro correo electrónico de soporte refuns@nowsneakers.com. </p><p>Para solicitar el reembolso deben haber transcurrido 60 días hábiles desde la fecha de envío y debe solicitarlo por correo electrónico especificando la referencia del pedido a nuestro correo electrónico de soporte refuns@nowsneakers.com.</p><p>Una vez solicitado el reembolso del pedido, nuestro equipo evaluará su caso y comunicará una resolución en un plazo de 72 horas. Si se aprueba su solicitud, se devolverá el importe total , si es posible por el mismo método de pago que realizó la compra</p></div>"
+          },
+          "type": "url"
+        }
+    ]
+  },
+  {
+    "key": "3",
+    "label": "Sobre los pagos",
+    "children": [
+        {
+          "key": "3-0",
+          "label": "¿Qué métodos de pago están disponibles?",
+          "data":"/faqs",
+          "txt": {
+            "es": "<div><p>Los pagos actualmente disponibles los puedes ver <a href='/way-to-pay'>aquí</a>.</p></div>"
+          },
+          "type": "url"
+        },
+        {
+          "key": "3-1",
+          "label": "¿Seguridad SSL?",
+          "data":"/faqs",
+          "txt": {
+            "es": "<div><p>Un certificado SSL (Secure Sockets Layer) es un título digital que autentica la identidad de un sitio web y cifra la información enviada al servidor con tecnología SSL. ... Un certificado sirve como un 'pasaporte' electrónico que establece las credenciales de una entidad en línea al hacer negocios en la Web.</p><p>En otras palabras, esto asegura que nadie pueda ver la información entre las comunicaciones entre el cliente y el servidor, lo que hace imposible que alguien vea datos esenciales como números de tarjetas de crédito, ID, contraseñas y otros personales.</p></div>"
+          },
+          "type": "url"
+        }
+    ]
+  }
+]
