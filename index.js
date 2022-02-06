@@ -26,9 +26,9 @@ app.use( '/api/auth', require('./routes/auth') ); // Usuarios
 app.use( '/api/suscriptor', require('./routes/suscriptor') ); // Suscriptores
 app.use( '/api/contacto', require('./routes/contacto') ); // Contactos
 app.get( '*', ( req, res ) => {
-    console.log(path.resolve(__dirname, 'public/nowsneakers/index.html'));
+    console.log(path.resolve(__dirname, 'public/index.html'));
     // res.sendFile( path.resolve( __dirname, './public/index2.html' ) );
-    res.sendFile( path.resolve( __dirname, 'public/nowsneakers/index.html' ) );
+    res.sendFile( path.resolve( __dirname, 'public/index.html' ) );
 } )
 
 
