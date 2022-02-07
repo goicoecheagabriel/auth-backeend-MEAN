@@ -1,8 +1,9 @@
-const { Router } = require('express');
-const { check } = require('express-validator');
-const { crearSuscriptor } = require('../controllers/suscriptor');
+const { Router }            = require('express');
+const { check }             = require('express-validator');
+const { crearSuscriptor }   = require('../controllers/suscriptor');
 // const { validarJWT } = require('../helpers/validar-jwt'); //Activarlo en caso de usar la validacion de token en alguna ruta
-const { validarCampos } = require('../middlewares/validar-campos');
+const { validarCampos }     = require('../middlewares/validar-campos');
+
 
 const router = Router();
 

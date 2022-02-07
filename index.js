@@ -1,6 +1,7 @@
 const express           = require('express');
 const path              = require('path');
 const cors              = require('cors');
+const { withCors }      = require('./middlewares/withCors');
 
 const { dbConnection }  = require('./db/config');
 require('dotenv').config();
@@ -22,16 +23,16 @@ app.use( cors() );
 app.use( express.json() )
 
 // Rutas
-app.use( '/api/auth', require('./routes/auth') ); // Usuarios
-app.use( '/api/suscriptor', require('./routes/suscriptor') ); // Suscriptores
-app.use( '/api/contacto', require('./routes/contacto') ); // Contactos
+app.use( '/api/auth', require('./routes/auth'), withCors ); // Usuarios
+app.use( '/api/suscriptor', require('./routes/suscriptor'), withCors ); // Suscriptores
+app.use( '/api/contacto', require('./routes/contacto'), withCors ); // Contactos
 app.get( '*', ( req, res ) => {
     console.log(path.resolve(__dirname, 'public/index.html'));
     // res.sendFile( path.resolve( __dirname, './public/index2.html' ) );
     res.sendFile( path.join( __dirname, '/public/index.html' ) );
-} )
+}, withCors )
 
 
-app.listen( process.env.PORT, () => {
+app.listen(process.env.PORT, () => {
     console.log(`Servidor corriendo en puerto ${ process.env.PORT }`)
 } )
