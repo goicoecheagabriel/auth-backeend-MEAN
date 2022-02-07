@@ -13,7 +13,7 @@ const app = express();
 dbConnection();
 
 // Directorio Público
-app.use('/',express.static('public'));
+app.use(express.static( path.join(__dirname,'public') ));
 
 // CORS
 app.use( cors() );
@@ -28,7 +28,7 @@ app.use( '/api/contacto', require('./routes/contacto') ); // Contactos
 app.get( '*', ( req, res ) => {
     console.log(path.resolve(__dirname, 'public/index.html'));
     // res.sendFile( path.resolve( __dirname, './public/index2.html' ) );
-    res.sendFile( path.resolve( __dirname, 'public/index.html' ) );
+    res.sendFile( path.join( __dirname, '/public/index.html' ) );
 } )
 
 
