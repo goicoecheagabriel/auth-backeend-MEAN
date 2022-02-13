@@ -1,11 +1,13 @@
 const { Router }            = require('express');
 const { check }             = require('express-validator');
-const { crearSuscriptor }   = require('../controllers/suscriptor');
+const { crearSuscriptor, getAll }   = require('../controllers/suscriptor');
 // const { validarJWT } = require('../helpers/validar-jwt'); //Activarlo en caso de usar la validacion de token en alguna ruta
 const { validarCampos }     = require('../middlewares/validar-campos');
 
 
 const router = Router();
+
+
 
 // Creación de un nuevo suscriptor
 router.post( '/new', [ 
@@ -18,5 +20,10 @@ router.post( '/new', [
     check('email', 'El email es obligatorio').isEmail(),
     validarCampos
 ], crearSuscriptor );
+
+
+
+// devolvemos los suscriptores registrados en la base de datos
+router.get( '/getAll', getAll );
 
 module.exports = router;

@@ -2,6 +2,36 @@ const { response } = require('express');
 const Suscriptor = require('../models/Suscriptor');
 
 
+// nos devuelve todos los suscriptores
+const getAll = async ( req,res = response ) => {
+    try {
+
+        const suscriptors = await Suscriptor.find();
+
+        if ( !suscriptors ) {
+            return res.status(404).json({
+                ok: false,
+                msg: `No existen suscriptores registrados.`
+            });
+        }
+
+        return res.status(201)
+            .json({
+                ok: true,
+                data: suscriptors
+            })
+        
+    } catch (error) {
+        console.error("ERROR:::/Controller/suscriptor.js:::getSuscriptors()",error);
+
+        return res.status(500).json({
+            ok: false,
+            msg: 'por favor hable con el administrador. Error de servidor backend.'
+        })
+    }
+}
+
+// creamos un suscriptor
 const crearSuscriptor = async ( req, res = response ) => {
     const { name, email, origen, validado, aceptaPublicidad } = req.body;
     console.log(":::CREAR:SUSCRIPTOR:::", {...req.body});
@@ -45,5 +75,6 @@ const crearSuscriptor = async ( req, res = response ) => {
 }
 
 module.exports = {
-    crearSuscriptor
+    crearSuscriptor,
+    getAll
 }
