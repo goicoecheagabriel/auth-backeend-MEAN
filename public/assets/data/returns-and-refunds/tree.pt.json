@@ -1,0 +1,92 @@
+[
+  {
+      "key": "0",
+      "label": "Início",
+      "children": [
+          {
+            "key": "0-0",
+            "label": "Esclarecimentos gerais.",
+            "data":"/returns-and-refunds",
+            "txt": {
+              "es": "<h3>Devoluções</h3><p>Consideramos uma devolução ao direito do cliente de se arrepender da compra por qualquer motivo que considere.</p><p> Esses motivos não terão a ver com o serviço prestado pela empresa e será uma decisão unilateral.</p><h3>Reembolsos</h3><p>Consideramos reembolso a decisão da empresa de devolver o dinheiro da compra ao cliente, após aceitar que é responsável para qualquer condição em que você ache certo devolver o dinheiro da compra.</p><h4>Princípio básico</h4><p>Nós também somos clientes de alguém. É por isso que vamos tratá-lo como queremos ser tratados.</p>"
+            },
+            "type": "url"
+          }
+      ]
+  },
+  {
+    "key": "1",
+    "label": "Retorna",
+    "children": [
+        {
+          "key": "1-0",
+          "label": "Quanto tempo está disponível?",
+          "data":"/returns-and-refunds",
+          "txt": {
+            "es": "Os clientes podem devolver os produtos até 15 dias após o recebimento."
+          },
+          "type": "url"
+        },
+        {
+          "key": "1-1",
+          "label": "Custos de devolução?",
+          "data":"/returns-and-refunds",
+          "txt": {
+            "es": "O custo de devolução será pago pelo comprador."
+          },
+          "type": "url"
+        },
+        {
+          "key": "1-2",
+          "label": "Quais produtos podem ser devolvidos?",
+          "data":"/returns-and-refunds",
+          "txt": {
+            "es": "<p>Você só pode devolver produtos que estejam no mesmo estado em que foram enviados.</p><p>Eles não podem apresentar sinais de uso</p><p>A empresa inspecionará o(s) produto(s) ) devolvido/s e a seu exclusivo critério decidirá se cumpre as condições para aceitar a devolução.</p><p>Em caso de recusa, o cliente deverá arcar com os custos de recuperação do produto</p>"
+          },
+          "type": "url"
+        },
+        {
+          "key": "1-3",
+          "label": "Em quanto tempo recebo o dinheiro para o meu reembolso?",
+          "data":"/returns-and-refunds",
+          "txt": {
+            "es": "<p>Em caso de aprovação da devolução, a empresa terá 30 dias úteis para cancelar o pagamento efetuado pelo cliente, deduzidos os portes de envio que serão suportados pelo cliente, mesmo que tenha sido descontado na compra. </p><p>O preço do frete com desconto será uma taxa fixa de € 20,00</p><p>A empresa não devolverá o dinheiro ao comprador, em vez disso, concederá uma nota de crédito, voucher ou código de desconto que pode ser trocado para outra compra na loja.</p><p>Esta última não terá data de validade.</p>"
+          },
+          "type": "url"
+        }
+    ]
+},
+  {
+    "key": "2",
+    "label": "Reembolsos",
+    "children": [
+        {
+          "key": "2-0",
+          "label": "Quando posso solicitar um reembolso?",
+          "data":"/returns-and-refunds",
+          "txt": {
+            "es": "<p>Será sempre essencial que a empresa tenha o produto adquirido antes de efetuar o reembolso.</p><p>O acima significa que o produto pode ainda não ter saído para o cliente ou que já pode estar em trânsito, de modo que independentemente da condição em que a remessa se encontra. O produto deve estar nas mãos da empresa para avaliar o reembolso.</p><p>O produto ou produtos que se pretende reembolsar devem ser entregues no endereço definido pela empresa em tempo hábil e sem motivo caso sejam devolvidos ao fabricante, neste caso, o(s) produto(s) será(ão) considerado(s) perdido(s) pelo cliente e não serão reembolsados ​​de forma alguma.</p>"
+          },
+          "type": "url"
+        },
+        {
+          "key": "2-1",
+          "label": "Sobre a responsabilidade do produto",
+          "data":"/returns-and-refunds",
+          "txt": {
+            "es": "<p>A responsabilidade de fazer o produto chegar novamente à empresa caso tenha sido recebido no endereço fornecido na compra pertence ao cliente e é intransferível.</p><p>A partir do momento em que o cliente recebe será sua responsabilidade fazê-lo chegar à empresa independentemente dos serviços das empresas ou de terceiros participantes.</p>"
+          },
+          "type": "url"
+        },
+        {
+          "key": "2-2",
+          "label": "Garantia total de entrega",
+          "data":"/returns-and-refunds",
+          "txt": {
+            "es": "<p>Caso o produto não chegue ao seu destino no prazo máximo de 60 dias úteis, 100% do pagamento efetuado pelo cliente será reembolsado independentemente da forma de envio selecionada na compra.</p><p>A empresa não devolverá o dinheiro ao comprador, mas concederá uma nota de crédito, voucher ou código de desconto que poderá ser trocado por outra compra na loja.</p><p>Esta última não terá prazo de validade .</p>"
+          },
+          "type": "url"
+        }
+    ]
+  }
+]

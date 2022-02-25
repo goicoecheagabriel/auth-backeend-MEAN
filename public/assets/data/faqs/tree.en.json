@@ -1,0 +1,116 @@
+[
+  {
+      "key": "0",
+      "label": "About us",
+      "children": [
+          {
+            "key": "0-0",
+            "label": "How long has the company?",
+            "data":"/faqs",
+            "txt": {
+              "es": "We have several eCommerce startups, we are always innovating and our team is very experienced in this new world of commerce. Do not hesitate to trust our hands to select your new shoes."
+            },
+            "type": "url"
+          },
+          {
+            "key": "0-1",
+            "label": "where they are?",
+            "data":"/faqs",
+            "txt": {
+              "es": "Our company is registered in Spain, but only for administrative purposes. Our market is the world and we do not believe in borders as a limit to trade."
+            },
+            "type": "url"
+          }
+      ]
+  },
+  {
+    "key": "1",
+    "label": "about prices",
+    "children": [
+        {
+          "key": "1-0",
+          "label": "Why are the prices so low?",
+          "data":"/faqs",
+          "txt": {
+            "es": "<p>We believe and work to generate many sales. That allows us to reduce our profit margins. Other companies choose to triple cost prices. We prefer to create community. Thanks to the fact that we have direct factory prices, we can reduce them significantly compared to the reality of other sellers</p>"
+          },
+          "type": "url"
+        }
+    ]
+  },
+  {
+    "key": "2",
+    "label": "About shipments",
+    "children": [
+        {
+          "key": "2-0",
+          "label": "How is the shipping process?",
+          "data":"/faqs",
+          "txt": {
+            "es": "<p>1- The payment is made. <br>2- The payment is processed. <br>3- The order is processed and shipped. (24 / 48 hours) In very specific cases this time can be a little longer, reaching up to 72 hours. <br>4- The order arrives at your address. (Delivery time depends on the selected shipment). Some countries (outside the US, Canada, European Community) may have specific delays in relation to their domestic mail system.</p>"
+          },
+          "type": "url"
+        },
+        {
+          "key": "2-1",
+          "label": "What types of shipments do?",
+          "data":"/faqs",
+          "txt": {
+            "es": "<p>We work with two types of shipments:<br> 1- EXPRESS SHIPPING - This shipment has an additional cost and takes between 15 to 20 business days from the time the order was processed.<br>2- FREE SHIPPING * - This shipment it is only available for purchases over €99.99<br>* not available for some countries - for more information consult through the contact form</p>"
+          },
+          "type": "url"
+        },
+        {
+          "key": "2-2",
+          "label": "Do you send cash on delivery?",
+          "data":"/faqs",
+          "txt": {
+            "es": "<p>When dealing with international shipments, it is very difficult to have this type of service. For this reason we have decided not to have this modality</p>"
+          },
+          "type": "url"
+        },
+        {
+          "key": "2-3",
+          "label": "What happens if I am not at home on the day of delivery?",
+          "data":"/faqs",
+          "txt": {
+            "es": "<p>In this case, the delivery person will leave a notice * with which you must go to the post office together with your personal identification. In any case, a family member who is at that time could also experience it. <br> Keep in mind that no more than 15 days can pass from the deliveryman's visit, since if that happens the post office will return the package to the sender. In case this happens you will have to pay the shipping again so that we can send it again once we receive it. <br> * There may be differences in handling depending on the country of destination.</p>"
+          },
+          "type": "url"
+        },
+        {
+          "key": "2-4",
+          "label": "What can I do if I do not receive my order?",
+          "data":"/faqs",
+          "txt": {
+            "es": "<div><p>Based on the fact that we make international shipments, although it is not usual, these could eventually be lost or have a problem that prevents their location. For this reason we have a refund insurance.</p><p>To request a refund, 60 business days must have elapsed from the date of shipment and you must request it by email specifying the reference of the order to our refuns support email hello@nowsneakers.com. </p><p>To request a refund, 60 business days must have elapsed from the date of shipment and you must request it by email specifying the order reference to our support email hello@nowsneakers.com.</p>< p>Once the refund of the order has been requested, our team will evaluate your case and communicate a resolution within 72 hours. If your request is approved, the full amount will be refunded, if possible by the same payment method that made the purchase</p></div>"
+          },
+          "type": "url"
+        }
+    ]
+  },
+  {
+    "key": "3",
+    "label": "about payments",
+    "children": [
+        {
+          "key": "3-0",
+          "label": "What payment methods are available?",
+          "data":"/faqs",
+          "txt": {
+            "es": "<div><p>Currently available payments can be seen <a href='/way-to-pay'>here</a>.</p></div>"
+          },
+          "type": "url"
+        },
+        {
+          "key": "3-1",
+          "label": "SSL security?",
+          "data":"/faqs",
+          "txt": {
+            "es": "<div><p>A Secure Sockets Layer (SSL) certificate is a digital certificate that authenticates the identity of a website and encrypts information sent to the server using SSL technology. ... A certificate serves as an electronic 'passport' that establishes the credentials of an online entity when doing business on the Web.</p><p>In other words, this ensures that no one can see the information between communications between client and server, making it impossible for anyone to see essential data like credit card numbers, IDs, passwords, and other personal data.</p></div>"
+          },
+          "type": "url"
+        }
+    ]
+  }
+]

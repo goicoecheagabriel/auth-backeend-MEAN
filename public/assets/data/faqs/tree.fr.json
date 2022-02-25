@@ -1,0 +1,116 @@
+[
+  {
+      "key": "0",
+      "label": "À propos de nous",
+      "children": [
+          {
+            "key": "0-0",
+            "label": "Depuis combien de temps l'entreprise existe-t-elle?",
+            "data":"/faqs",
+            "txt": {
+              "es": "Nous avons plusieurs startups de commerce électronique, nous innovons toujours et notre équipe est très expérimentée dans ce nouveau monde du commerce. N'hésitez pas à faire confiance à nos mains pour sélectionner vos nouvelles chaussures."
+            },
+            "type": "url"
+          },
+          {
+            "key": "0-1",
+            "label": "Où sont-elles?",
+            "data":"/faqs",
+            "txt": {
+              "es": "Notre société est enregistrée en Espagne, mais uniquement à des fins administratives. Notre marché est le monde et nous ne croyons pas aux frontières comme limite au commerce."
+            },
+            "type": "url"
+          }
+      ]
+  },
+  {
+    "key": "1",
+    "label": "sur les prix",
+    "children": [
+        {
+          "key": "1-0",
+          "label": "Pourquoi les prix si bas ?",
+          "data":"/faqs",
+          "txt": {
+            "es": "<p>Nous croyons et travaillons pour générer de nombreuses ventes. Cela nous permet de réduire nos marges bénéficiaires. D'autres entreprises choisissent de tripler les prix de revient. Nous préférons créer une communauté. Grâce au fait que nous avons des prix directs d'usine, nous pouvons les réduire significativement par rapport à la réalité des autres vendeurs</p>"
+          },
+          "type": "url"
+        }
+    ]
+  },
+  {
+    "key": "2",
+    "label": "À propos des expéditions",
+    "children": [
+        {
+          "key": "2-0",
+          "label": "Comment se déroule le processus d'expédition ?",
+          "data":"/faqs",
+          "txt": {
+            "es": "<p>1- Le paiement est effectué. <br>2- Le paiement est traité. <br>3- La commande est traitée et expédiée. (24 / 48 heures) Dans des cas très spécifiques, ce délai peut être un peu plus long, atteignant jusqu'à 72 heures. <br>4- La commande arrive à votre adresse. (Le délai de livraison dépend de l'envoi sélectionné). Certains pays (en dehors des États-Unis, du Canada et de la Communauté européenne) peuvent avoir des retards spécifiques liés à leur système de messagerie national.</p>"
+          },
+          "type": "url"
+        },
+        {
+          "key": "2-1",
+          "label": "Quels types d'envois effectuez-vous ?",
+          "data":"/faqs",
+          "txt": {
+            "es": "<p>Nous travaillons avec deux types d'expédition:<br> 1- EXPÉDITION EXPRESS - Cette expédition a un coût supplémentaire et prend entre 15 et 20 jours ouvrables à partir du moment où la commande a été traitée.<br> 2- EXPÉDITION GRATUITE * - Cet envoi n'est disponible que pour les achats supérieurs à 99,99 €<br>* non disponible pour certains pays - pour plus d'informations, consultez le formulaire de contact</p>"
+          },
+          "type": "url"
+        },
+        {
+          "key": "2-2",
+          "label": "Envoyez-vous de l'argent à la livraison ?",
+          "data":"/faqs",
+          "txt": {
+            "es": "<p>Lorsqu'il s'agit d'envois internationaux, il est très difficile d'avoir ce type de service. Pour cette raison, nous avons décidé de ne pas avoir cette modalité</p>"
+          },
+          "type": "url"
+        },
+        {
+          "key": "2-3",
+          "label": "Que se passe-t-il si je ne suis pas chez moi le jour de la livraison?",
+          "data":"/faqs",
+          "txt": {
+            "es": "<p>Dans ce cas, le livreur laissera un avis de passage* avec lequel vous devrez vous présenter au bureau de poste muni de votre pièce d'identité. Dans tous les cas, un membre de la famille qui est à ce moment-là pourrait également en faire l'expérience. <br> Gardez à l'esprit qu'il ne peut s'écouler plus de 15 jours après la visite du livreur, car si cela se produit, la poste renverra le colis à l'expéditeur. Si cela se produit, vous devrez payer à nouveau les frais d'expédition afin que nous puissions le renvoyer une fois que nous l'aurons reçu. <br> * Il peut y avoir des différences de traitement selon le pays de destination.</p>"
+          },
+          "type": "url"
+        },
+        {
+          "key": "2-4",
+          "label": "Que puis-je faire si je ne reçois pas ma commande ?",
+          "data":"/faqs",
+          "txt": {
+            "es": "<div><p>Sur la base du fait que nous effectuons des envois internationaux, bien que ce ne soit pas habituel, ceux-ci pourraient éventuellement être perdus ou avoir un problème qui empêche leur localisation. Pour cette raison, nous avons une assurance remboursement.</p><p>Pour demander un remboursement, 60 jours ouvrables doivent s'être écoulés à compter de la date d'expédition et vous devez en faire la demande par e-mail en précisant la référence de la commande à notre e-mail d'assistance aux remboursements salut@nowsneakers.com. </p><p>Pour demander un remboursement, 60 jours ouvrables doivent s'être écoulés à compter de la date d'expédition et vous devez en faire la demande par e-mail en précisant la référence de la commande à notre e-mail d'assistance salut@nowsneakers.com.</p><p>Une fois le remboursement de la commande demandé, notre équipe évaluera votre dossier et vous communiquera une résolution sous 72h. Si votre demande est approuvée, le montant total sera remboursé, si possible par le même mode de paiement qui a effectué l'achat</p></div>"
+          },
+          "type": "url"
+        }
+    ]
+  },
+  {
+    "key": "3",
+    "label": "sur les paiements",
+    "children": [
+        {
+          "key": "3-0",
+          "label": "Quelles méthodes de paiements sont disponibles?",
+          "data":"/faqs",
+          "txt": {
+            "es": "<div><p>Les paiements actuellement disponibles peuvent être consultés <a href='/way-to-pay'>ici</a>.</p></div>"
+          },
+          "type": "url"
+        },
+        {
+          "key": "3-1",
+          "label": "Sécurité SSL?",
+          "data":"/faqs",
+          "txt": {
+            "es": "<div><p>Un certificat SSL (Secure Sockets Layer) est un certificat numérique qui authentifie l'identité d'un site Web et crypte les informations envoyées au serveur à l'aide de la technologie SSL. Un certificat sert de \"passeport\" électronique qui établit les informations d'identification d'une entité en ligne lorsqu'elle fait des affaires sur le Web.</p><p>En d'autres termes, cela garantit que personne ne peut voir les informations entre les communications entre client et serveur, ce qui empêche quiconque de voir des données essentielles telles que des numéros de carte de crédit, des identifiants, des mots de passe et d'autres données personnelles.</p></div>"
+          },
+          "type": "url"
+        }
+    ]
+  }
+]

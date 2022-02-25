@@ -1,0 +1,116 @@
+[
+  {
+      "key": "0",
+      "label": "Chi siamo",
+      "children": [
+          {
+            "key": "0-0",
+            "label": "Da quanto tempo è attiva l'azienda?",
+            "data":"/faqs",
+            "txt": {
+              "es": "Abbiamo diverse startup di eCommerce, innoviamo sempre e il nostro team ha molta esperienza in questo nuovo mondo del commercio. Non esitare ad affidarti alle nostre mani per selezionare le tue nuove scarpe."
+            },
+            "type": "url"
+          },
+          {
+            "key": "0-1",
+            "label": "Dove sono loro?",
+            "data":"/faqs",
+            "txt": {
+              "es": "La nostra azienda è registrata in Spagna, ma solo per scopi amministrativi. Il nostro mercato è il mondo e non crediamo nei confini come limite al commercio."
+            },
+            "type": "url"
+          }
+      ]
+  },
+  {
+    "key": "1",
+    "label": "Sui prezzi",
+    "children": [
+        {
+          "key": "1-0",
+          "label": "Perché i prezzi così bassi?",
+          "data":"/faqs",
+          "txt": {
+            "es": "<p>Crediamo e lavoriamo per generare molte vendite. Questo ci permette di ridurre i nostri margini di profitto. Altre aziende scelgono di triplicare i prezzi di costo. Preferiamo creare comunità. Grazie al fatto che abbiamo prezzi di fabbrica diretti, possiamo ridurli notevolmente rispetto alla realtà di altri venditori</p>"
+          },
+          "type": "url"
+        }
+    ]
+  },
+  {
+    "key": "2",
+    "label": "A proposito di spedizioni",
+    "children": [
+        {
+          "key": "2-0",
+          "label": "Come è il processo di spedizione?",
+          "data":"/faqs",
+          "txt": {
+            "es": "<p>1- Il pagamento è stato effettuato. <br>2- Il pagamento viene elaborato. <br>3- L'ordine viene elaborato e spedito. (24/48 ore) In casi molto specifici questo tempo può essere un po' più lungo, arrivando fino a 72 ore. <br>4- L'ordine arriva al tuo indirizzo. (I tempi di consegna dipendono dalla spedizione selezionata). Alcuni paesi (al di fuori di Stati Uniti, Canada, Comunità Europea) potrebbero avere ritardi specifici in relazione al loro sistema di posta nazionale.</p>"
+          },
+          "type": "url"
+        },
+        {
+          "key": "2-1",
+          "label": "Che tipo di spedizioni effettuate?",
+          "data":"/faqs",
+          "txt": {
+            "es": "<p>Lavoriamo con due tipi di spedizione:<br> 1- SPEDIZIONE ESPRESSA - Questa spedizione ha un costo aggiuntivo e richiede dai 15 ai 20 giorni lavorativi dal momento dell'elaborazione dell'ordine.<br>2- SPEDIZIONE GRATUITA * - Questa spedizione è disponibile solo per acquisti superiori a 99,99€<br>* non disponibile per alcuni paesi - per maggiori informazioni consulta il form di contatto</p>"
+          },
+          "type": "url"
+        },
+        {
+          "key": "2-2",
+          "label": "Spedite in contrassegno?",
+          "data":"/faqs",
+          "txt": {
+            "es": "<p>Quando si tratta di spedizioni internazionali, è molto difficile avere questo tipo di servizio. Per questo motivo abbiamo deciso di non avere questa modalità</p>"
+          },
+          "type": "url"
+        },
+        {
+          "key": "2-3",
+          "label": "Cosa succede se non sono a casa il giorno della consegna?",
+          "data":"/faqs",
+          "txt": {
+            "es": "<p>In questo caso il corriere lascerà un avviso* con il quale dovrai recarti all'ufficio postale insieme alla tua identificazione personale. In ogni caso, potrebbe sperimentarlo anche un familiare che si trova in quel momento. <br> Tieni presente che dalla visita del fattorino non possono trascorrere più di 15 giorni, poiché in tal caso l'ufficio postale restituirà il pacco al mittente. In tal caso, dovrai pagare nuovamente la spedizione in modo che possiamo inviarla nuovamente una volta ricevuta. <br> * Potrebbero esserci differenze nella gestione a seconda del paese di destinazione.</p>"
+          },
+          "type": "url"
+        },
+        {
+          "key": "2-4",
+          "label": "Cosa posso fare se non ricevo il mio ordine?",
+          "data":"/faqs",
+          "txt": {
+            "es": "<div><p>In base al fatto che effettuiamo spedizioni internazionali, anche se non è normale, queste potrebbero eventualmente andare perse o avere un problema che ne impedisce la localizzazione. Per questo motivo abbiamo un'assicurazione di rimborso.</p><p>Per richiedere un rimborso devono essere trascorsi 60 giorni lavorativi dalla data di spedizione e devi richiederlo via email specificando il riferimento dell'ordine alla nostra email di supporto per i rimborsi ciao@nowsneakers.com. </p><p>Per richiedere un rimborso devono essere trascorsi 60 giorni lavorativi dalla data di spedizione e devi richiederlo tramite e-mail specificando il riferimento dell'ordine alla nostra e-mail di supporto ciao@nowsneakers.com.</p>< p >Una volta richiesto il rimborso dell'ordine, il nostro team valuterà il tuo caso e comunicherà una risoluzione entro 72 ore. Se la tua richiesta viene approvata, l'intero importo verrà rimborsato, se possibile con lo stesso metodo di pagamento che ha effettuato l'acquisto</p></div>"
+          },
+          "type": "url"
+        }
+    ]
+  },
+  {
+    "key": "3",
+    "label": "Sui pagamenti",
+    "children": [
+        {
+          "key": "3-0",
+          "label": "Quali metodi di pagamento sono disponibili?",
+          "data":"/faqs",
+          "txt": {
+            "es": "<div><p>I pagamenti attualmente disponibili possono essere visualizzati <a href='/way-to-pay'>qui</a>.</p></div>"
+          },
+          "type": "url"
+        },
+        {
+          "key": "3-1",
+          "label": "Sicurezza SSL?",
+          "data":"/faqs",
+          "txt": {
+            "es": "<div><p>Un certificato Secure Sockets Layer (SSL) è un certificato digitale che autentica l'identità di un sito Web e crittografa le informazioni inviate al server utilizzando la tecnologia SSL. ... Un certificato funge da \"passaporto\" elettronico che stabilisce le credenziali di un'entità online quando si fa affari sul Web.</p><p>In altre parole, ciò garantisce che nessuno possa vedere le informazioni tra le comunicazioni tra client e server, rendendo impossibile a chiunque la visualizzazione di dati essenziali come numeri di carta di credito, ID, password e altri dati personali.</p></div>"
+          },
+          "type": "url"
+        }
+    ]
+  }
+]

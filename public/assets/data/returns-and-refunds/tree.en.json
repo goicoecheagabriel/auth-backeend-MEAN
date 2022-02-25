@@ -1,0 +1,92 @@
+[
+  {
+      "key": "0",
+      "label": "Start",
+      "children": [
+          {
+            "key": "0-0",
+            "label": "General clarifications.",
+            "data":"/returns-and-refunds",
+            "txt": {
+              "es": "<h3>Returns</h3><p>We consider a return to the customer's right to regret the purchase for any reason they consider.</p><p> These reasons will not have to do with the service provided by the company and it will be a unilateral decision.</p><h3>Refunds</h3><p>We consider a refund to be the decision by the company to return the purchase money to the customer, after it accepts that it is responsible for any condition in which you think it is right to refund the purchase money.</p><h4>Basic principle</h4><p>We are also someone's customer. That is why we will treat you as we want to be treated.</p>"
+            },
+            "type": "url"
+          }
+      ]
+  },
+  {
+    "key": "1",
+    "label": "Returns",
+    "children": [
+        {
+          "key": "1-0",
+          "label": "How much time is available?",
+          "data":"/returns-and-refunds",
+          "txt": {
+            "es": "Customers can return products up to 15 days after receiving them."
+          },
+          "type": "url"
+        },
+        {
+          "key": "1-1",
+          "label": "Devolution costs?",
+          "data":"/returns-and-refunds",
+          "txt": {
+            "es": "The return cost will be paid by the buyer."
+          },
+          "type": "url"
+        },
+        {
+          "key": "1-2",
+          "label": "What products can be returned?",
+          "data":"/returns-and-refunds",
+          "txt": {
+            "es": "<p>You can only return products that are in the same state in which they were sent.</p><p>They cannot show signs of having been used</p><p>The company will inspect the product(s) returned / s and at its sole discretion will decide if it meets the conditions to accept the return.</p><p>In case of rejecting it, the customer must bear the costs of recovering the product</p>"
+          },
+          "type": "url"
+        },
+        {
+          "key": "1-3",
+          "label": "How long will it take to receive my refund money?",
+          "data":"/returns-and-refunds",
+          "txt": {
+            "es": "<p>In case of approving the return, the company will have 30 business days to cancel the payment made by the customer, less the shipping costs that will be borne by the customer, even when he has been discounted in the purchase. </p><p>The discounted shipping price will be a fixed charge of €20.00</p><p>The company will not refund money to the buyer, instead it will grant a credit note, voucher or discount code that can be exchanged for another purchase in the store.</p><p>The latter will not have an expiration date.</p>"
+          },
+          "type": "url"
+        }
+    ]
+},
+  {
+    "key": "2",
+    "label": "Refunds",
+    "children": [
+        {
+          "key": "2-0",
+          "label": "When can I request a refund?",
+          "data":"/returns-and-refunds",
+          "txt": {
+            "es": "<p>It will always be essential that the company has the product purchased before making the refund.</p><p>The above means that the product may not yet have left for the customer or that it may already be in transit, so which regardless of the condition in which the shipment is found. The product must be in the hands of the company to evaluate a refund.</p><p>The product or products that are intended to be reimbursed must be delivered to the address set by the company in a timely manner and for no reason should they be returned to the manufacturer, in In this case, the product or products will be considered lost by the customer and they will not be reimbursed in any way.</p>"
+          },
+          "type": "url"
+        },
+        {
+          "key": "2-1",
+          "label": "About product liability",
+          "data":"/returns-and-refunds",
+          "txt": {
+            "es": "<p>The responsibility of making the product arrive again at the company in case it has been received at the address provided in the purchase belongs to the client and is non-transferable.</p><p>From the moment the client receive it will be your responsibility to make it reach the company regardless of the services of companies or third parties that participate.</p>"
+          },
+          "type": "url"
+        },
+        {
+          "key": "2-2",
+          "label": "Full delivery guarantee",
+          "data":"/returns-and-refunds",
+          "txt": {
+            "es": "<p>In the event that the product does not reach its destination within a maximum period of 60 business days, 100% of the payment made by the customer will be refunded regardless of the shipping method selected in the purchase.</p>< p>The company will not return money to the buyer, instead it will grant a credit note, voucher or discount code that can be exchanged for another purchase in the store.</p><p>The latter will not have an expiration date.< /p>"
+          },
+          "type": "url"
+        }
+    ]
+  }
+]

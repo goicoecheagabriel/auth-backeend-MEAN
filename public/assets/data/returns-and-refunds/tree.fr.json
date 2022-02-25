@@ -1,0 +1,92 @@
+[
+  {
+      "key": "0",
+      "label": "Début",
+      "children": [
+          {
+            "key": "0-0",
+            "label": "Précisions générales.",
+            "data":"/returns-and-refunds",
+            "txt": {
+              "es": "<h3>Retours</h3> <p>Nous considérons un retour au droit du client de regretter l'achat pour toute raison qu'il considère.</p> <p>Ces raisons n'auront pas à voir avec le service fourni par l'entreprise et ce sera une décision unilatérale.</p><h3>Remboursements</h3><p>Nous considérons qu'un remboursement est la décision de l'entreprise de restituer l'argent de l'achat au client, après avoir accepté qu'il est responsable pour toute condition dans laquelle vous pensez qu'il est juste de rembourser le prix d'achat.</p><h4>Principe de base</h4><p>Nous sommes aussi le client de quelqu'un. C'est pourquoi nous vous traiterons comme nous voulons être traités.</p>"
+            },
+            "type": "url"
+          }
+      ]
+  },
+  {
+    "key": "1",
+    "label": "Retour",
+    "children": [
+        {
+          "key": "1-0",
+          "label": "Combien de temps est disponible ?",
+          "data":"/returns-and-refunds",
+          "txt": {
+            "es": "Les clients peuvent retourner les produits jusqu'à 15 jours après les avoir reçus."
+          },
+          "type": "url"
+        },
+        {
+          "key": "1-1",
+          "label": "Coûts de déconcentration ?",
+          "data":"/returns-and-refunds",
+          "txt": {
+            "es": "Les frais de retour seront payés par l'acheteur."
+          },
+          "type": "url"
+        },
+        {
+          "key": "1-2",
+          "label": "Quels produits peuvent être retournés ?",
+          "data":"/returns-and-refunds",
+          "txt": {
+            "es": "<p>Vous ne pouvez retourner que des produits qui sont dans le même état dans lequel ils ont été envoyés.</p><p>Ils ne peuvent pas montrer de signes d'utilisation</p><p>L'entreprise inspectera le(s) produit(s ) retourné / s et à sa seule discrétion décidera s'il remplit les conditions pour accepter le retour.</p><p>En cas de refus, le client doit supporter les frais de récupération du produit</p>"
+          },
+          "type": "url"
+        },
+        {
+          "key": "1-3",
+          "label": "Dans combien de temps vais-je recevoir l'argent pour mon remboursement?",
+          "data":"/returns-and-refunds",
+          "txt": {
+            "es": "<p>En cas d'approbation du retour, la société disposera de 30 jours ouvrables pour annuler le paiement effectué par le client, moins les frais d'expédition qui seront à la charge du client, même s'il a été réduit lors de l'achat. </ p><p>Le prix d'expédition réduit sera un forfait de 20,00 €</p><p>L'entreprise ne remboursera pas l'argent à l'acheteur, mais accordera un avoir, un bon ou un code de réduction échangeable pour un autre achat en magasin.</p><p>Ce dernier n'aura pas de date d'expiration.</p>"
+          },
+          "type": "url"
+        }
+    ]
+},
+  {
+    "key": "2",
+    "label": "Reembolsos",
+    "children": [
+        {
+          "key": "2-0",
+          "label": "Quand puis-je demander un remboursement ?",
+          "data":"/returns-and-refunds",
+          "txt": {
+            "es": "<p>Il sera toujours essentiel que l'entreprise ait le produit acheté avant d'effectuer le remboursement.</p><p>Ce qui précède signifie que le produit n'est peut-être pas encore parti pour le client ou qu'il est peut-être déjà en transit, quel que soit l'état dans lequel se trouve l'envoi. Le produit doit être entre les mains de l'entreprise pour évaluer un remboursement.</p><p>Le ou les produits destinés à être remboursés doivent être livrés à l'adresse indiquée par l'entreprise dans les meilleurs délais et sans motif s'ils sont retournés au fabricant, dans ce cas, le ou les produits seront considérés comme perdus par le client et ne seront en aucun cas remboursés.</p>"
+          },
+          "type": "url"
+        },
+        {
+          "key": "2-1",
+          "label": "À propos de la responsabilité du fait des produits",
+          "data":"/returns-and-refunds",
+          "txt": {
+            "es": "<p>La responsabilité de faire arriver à nouveau le produit à l'entreprise au cas où il aurait été reçu à l'adresse indiquée lors de l'achat appartient au client et n'est pas transférable.</p><p>À partir du moment où le client reçoit il vous appartiendra de le faire parvenir à l'entreprise quels que soient les services des entreprises ou des tiers qui y participent.</p>"
+          },
+          "type": "url"
+        },
+        {
+          "key": "2-2",
+          "label": "Garantie de livraison complète",
+          "data":"/returns-and-refunds",
+          "txt": {
+            "es": "<p>Dans le cas où le produit n'atteindrait pas sa destination dans un délai maximum de 60 jours ouvrables, 100% du paiement effectué par le client sera remboursé quel que soit le mode d'expédition sélectionné lors de l'achat.</p><p>L'entreprise ne rendra pas d'argent à l'acheteur, mais accordera un avoir, un bon ou un code de réduction échangeable contre un autre achat en magasin.</p><p>Ce dernier n'aura pas de date d'expiration .</p>"
+          },
+          "type": "url"
+        }
+    ]
+  }
+]
