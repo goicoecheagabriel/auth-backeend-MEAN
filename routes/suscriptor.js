@@ -22,7 +22,6 @@ router.post( '/new', [
 ], crearSuscriptor );
 
 
-
 // devolvemos los suscriptores registrados en la base de datos
 router.get( '/getAll', getAll );
 
